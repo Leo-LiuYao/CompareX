@@ -3,7 +3,7 @@
 
   <h1>🔍 CompareX</h1>
 
-  <p><b>A lightweight, efficient local image comparison and metric analysis personal utility, integrating core features from multiple image comparison software. Updates are casual and at-will.</b></p>
+  <p><b>A lightweight, efficient local image comparison and metric analysis personal utility.</b></p>
 
   <p>
     <a href="README.md">中文说明</a> ·
