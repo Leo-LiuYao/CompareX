@@ -3,7 +3,7 @@
 
   <h1>🔍 CompareX</h1>
 
-  <p><b>A lightweight, efficient local image comparison and metric analysis tool built for computer vision research workflows.</b></p>
+  <p><b>A lightweight, efficient local image comparison and metric analysis personal utility, integrating core features from multiple image comparison software. Updates are casual and at-will.</b></p>
 
   <p>
     <a href="README.md">中文说明</a> ·
@@ -27,7 +27,7 @@ In visual experiments, the slow part is often not opening images. It is answerin
 - 📊 Do PSNR / SSIM numbers match what the human eye sees?
 - 📝 Which examples are worth using in a paper figure or ablation section?
 
-General image viewers are good at browsing, but rarely optimize for this specific research workflow. **CompareX** is built for this: lightweight, offline, local, and focused on checking experimental results quickly.
+General image viewers are good at browsing, but lack synced multi-folder comparison, pixel-level inspection, and quantitative metrics. **CompareX** is a personal utility that integrates the best features of multiple image comparison tools. It is lightweight, offline, local, and focused on checking experimental results quickly. Updates are casual and at-will.
 
 <img src="assets/comparex_workflow.png" alt="CompareX Compare Window" width="100%" style="border-radius: 8px;">
 
@@ -124,6 +124,6 @@ Outputs will be generated in the `dist/` directory:
 
 ## 📌 Notes
 
-- CompareX is a personal utility designed around computer vision experiment review.
+- CompareX is purely a personal utility. Updates and maintenance are casual and at-will, primarily serving the author's own experiment review needs.
 - All image processing runs locally; no data is uploaded.
 - The canvas and thumbnail grid are custom-painted; UI controls use [PyQt6-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets).
