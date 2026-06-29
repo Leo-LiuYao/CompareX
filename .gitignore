@@ -10,15 +10,20 @@ __pycache__/
 venv/
 .venv/
 
-# PyInstaller
+# PyInstaller / packaging (local only — never commit)
 build/
 dist/
 *.spec.bak
+*.dmg
+*.app
+
+# Build venv and generated icon intermediates
+.build-venv/
+assets/comparex.iconset/
 
 # macOS
 .DS_Store
 *.icns.bak
-assets/comparex.iconset/
 
 # IDE / editor
 .idea/
