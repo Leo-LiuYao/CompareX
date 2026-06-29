@@ -5,7 +5,7 @@ __pycache__/
 .eggs/
 *.egg
 
-# Virtual environments
+# Virtual environments & build venv
 .build-venv/
 venv/
 .venv/
@@ -16,9 +16,6 @@ dist/
 *.spec.bak
 *.dmg
 *.app
-
-# Build venv and generated icon intermediates
-.build-venv/
 assets/comparex.iconset/
 
 # macOS
