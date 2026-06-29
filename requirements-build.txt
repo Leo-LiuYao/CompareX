@@ -1,0 +1,14 @@
+# Runtime deps for CompareX (also used by PyInstaller build venv)
+PyQt6>=6.4.2
+PyQt6-sip>=13.4.1
+PyQt6-Fluent-Widgets>=1.11.0
+PyQt6-Frameless-Window>=0.8.0
+darkdetect>=0.8.0
+opencv-python-headless>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+scipy>=1.11.0
+scikit-image>=0.21.0
+matplotlib>=3.7.0
+pyobjc-framework-Cocoa>=10.0; sys_platform == 'darwin'
+pyinstaller>=6.3.0
