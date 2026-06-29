@@ -20,6 +20,10 @@ fi
 # shellcheck disable=SC1091
 source "$VENV/bin/activate"
 
+echo "Installing CompareX runtime deps into build venv ..."
+python -m pip install -U pip wheel setuptools >/dev/null
+python -m pip install -r requirements-build.txt
+
 echo "Rendering app icon (transparent squircle) ..."
 python assets/render_icon.py
 echo "Generating $ICON_ICNS ..."
@@ -31,10 +35,6 @@ for size in 16 32 128 256 512; do
     sips -z "$s2" "$s2" "$ICON_PNG" --out "$ICONSET/icon_${size}x${size}@2x.png" >/dev/null
 done
 iconutil -c icns "$ICONSET" -o "$ICON_ICNS"
-
-echo "Installing CompareX runtime deps into build venv ..."
-python -m pip install -U pip wheel setuptools >/dev/null
-python -m pip install -r requirements-build.txt
 
 rm -rf build dist
 
