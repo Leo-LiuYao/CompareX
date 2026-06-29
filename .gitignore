@@ -30,3 +30,6 @@ assets/comparex.iconset/
 
 # Logs & local runtime (never commit user data)
 *.log
+
+# Local publish/upload helpers (never commit)
+.local/
